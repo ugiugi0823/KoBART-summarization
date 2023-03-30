@@ -3,7 +3,7 @@ import streamlit as st
 from kobart import get_kobart_tokenizer
 from transformers.models.bart import BartForConditionalGeneration
 
-@st.cache
+
 def load_model():
     model = BartForConditionalGeneration.from_pretrained('/content/KoBART-summarization/model')
     # tokenizer = get_kobart_tokenizer()
