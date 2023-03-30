@@ -1,8 +1,9 @@
-pandas==1.4.4
-torch==1.10.1
-transformers==4.8.2
+git+https://github.com/SKT-AI/KoBART#egg=kobart
 streamlit==1.1.0
 torchmetrics==0.6.0
 torchtext==0.11.0
 torchvision==0.11.2
 pytorch-lightning==1.3.8
+torch==1.10.1
+pandas==1.4.4
+transformers==4.8.2
