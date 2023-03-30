@@ -41,10 +41,14 @@ tokenizer.decode(summary_ids.squeeze().tolist(), skip_special_tokens=True)
 ```
 ## Requirements
 ```
-pytorch>=1.10.0
-transformers==4.16.2
-pytorch-lightning==1.5.10
-streamlit==1.2.0
+pandas==1.4.4
+torch==1.10.1
+transformers==4.8.2
+streamlit==1.1.0
+torchmetrics==0.6.0
+torchtext==0.11.0
+torchvision==0.11.2
+pytorch-lightning==1.3.8
 ```
 ## Data
 - [Dacon 한국어 문서 생성요약 AI 경진대회](https://dacon.io/competitions/official/235673/overview/) 의 학습 데이터를 활용함
