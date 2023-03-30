@@ -40,6 +40,7 @@ tokenizer.decode(summary_ids.squeeze().tolist(), skip_special_tokens=True)
 
 ```
 ## Requirements
+코랩에서는 버전이 이상해요!! requirements.txt 없어요!
 ```
 pandas==1.4.4
 torch==1.10.1
